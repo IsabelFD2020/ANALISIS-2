@@ -1,0 +1,126 @@
+.orden-compra-container {
+    width: 95%;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+ .order-form {
+  display: flex;
+  flex-direction: column;  /* Alinear los elementos en una columna */
+  align-items: flex-start; /* Alinear el formulario a la izquierda */
+  margin-left: 20px;       /* Añadir margen a la izquierda para separarlo un poco del borde */
+}
+
+.order-form .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;  /* Alinear el label y el input en columna */
+  align-items: flex-start; /* Alinear cada label y input a la izquierda */
+}
+    
+  .order-form .form-actions {
+    text-align: right;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders-table th, .orders-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #ffe0b2;
+    color: black;
+  }
+  
+  .orders-table td {
+    background-color: white;
+  }
+  
+  .actions-column {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #014ba0;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #fc4b08; /* Botón eliminar color naranja */
+  }
+  
+  
+  .submit-button i, .cancel-button i {
+    margin-right: 5px;
+  }
+
+  .order-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffe0b2; /* Fondo color similar */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-form label {
+    font-weight: bold;
+    margin-bottom: 5px;  /* Añadir un margen entre el label y el campo de entrada */
+  }
+  
+  .order-form input,
+  .order-form select {
+    width: 300px; /* Un ancho razonable para los campos de entrada */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;  /* Alinear los botones a la izquierda */
+  }
+  
+  .submit-button {
+    background-color: #014ba0; /* Color azul para guardar */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    align-items: center;
+    margin-right: 5px;
+    width: 35%;
+  }
+  
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 5px;
+    width: 30%;
+  }
+  
+  .submit-button, .cancel-button {
+    margin-right: 15px;
+  }
